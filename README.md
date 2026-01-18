@@ -22,20 +22,11 @@ The system is fully automated and requires no manual intervention once deployed.
 - **Type:** Historical transactional data
 - **Purpose:** Used to simulate real-world e-commerce transactions and customer behavior
 
----Kaggle Online Retail Data
-↓
-Data Cleaning & Preparation (SQL)
-↓
-RFM Metric Calculation
-↓
-Customer Segmentation
-↓
-Daily Segment Snapshot Table
-↓
-Automated Monitoring (n8n + JavaScript)
-↓
-Slack Alerts
----
+data/     → Raw Kaggle dataset and database schema  
+sql/      → SQL scripts for cleaning, RFM logic, snapshots  
+n8n/      → n8n workflow export and execution screenshots  
+Powerbi/  → Power BI dashboard and visuals  
+README.md → Project documentation  
 
 ## ⚙️ Key Features
 - RFM-based customer segmentation
@@ -85,5 +76,4 @@ This project uses Kaggle data to simulate a production environment.
 The architecture and logic are designed to be directly transferable to real-world systems with live transactional data.
 
 
-## 🧠 System Architecture
 
